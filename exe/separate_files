@@ -1,0 +1,6 @@
+puts 'File separator'
+
+
+require_relative '../lib/separate_files/cli'
+
+SeparateFiles::Cli.start(ARGV)
