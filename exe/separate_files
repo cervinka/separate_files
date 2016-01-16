@@ -1,6 +1,5 @@
-puts 'File separator'
+#!/usr/bin/env ruby
 
+require_relative '../lib/separate_files/cli.rb'
 
-require_relative '../lib/separate_files/cli'
-
-SeparateFiles::Cli.start(ARGV)
+SeparateFiles::CLI.start(ARGV)
